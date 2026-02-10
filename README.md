@@ -79,16 +79,6 @@ python src/proof_aggregator.py     # Recursive aggregation demo (reproduces Algo
 - **Fixed-point guarantee:** Theorem 3.3 bounds accumulated rounding error to ±1 ULP for B-bit quantized models through L layers with max width d_max, requiring Q = B + ⌈log₂L⌉ + ⌈log₂d_max⌉ fractional bits
 - **Privacy:** Theorem 6.2 proves zero-knowledge of user data under Groth16 ZK property + AES-256-GCM semantic security — no PPT adversary gains advantage > negl(λ)
 
-## Relevant Skills Demonstrated
-
-- Zero-knowledge proof systems (Groth16, R1CS, recursive SNARKs)
-- Finite field arithmetic and algebraic cryptography (BN254 pairing, Poseidon)
-- Neural network quantization and fixed-point error analysis
-- Smart contract development (Solidity, EVM precompiles)
-- Arithmetic circuit design (Circom)
-- Photonic computing simulation and hardware-algorithm co-design
-- Token mechanism design and economic modeling
-
 ## License
 
 MIT
